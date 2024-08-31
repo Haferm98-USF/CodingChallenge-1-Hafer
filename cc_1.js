@@ -21,6 +21,8 @@ const productDetails = {
 
 console.log(products, productDetails);
 
+
+
 // Task 3: Assignment Operators
 
 let accountBalance = 1000;
@@ -40,3 +42,17 @@ console.log("Updated Account Balance:", accountBalance);
 
 accountBalance %= 50; // accountBalance = 20
 console.log("Updated Account Balance:", accountBalance);
+
+
+
+// Task 4: Comparison Operators
+
+let employeeScore1 = 9.9;
+let employeeScore2 = 6.3; 
+
+console.log(employeeScore1 > employeeScore2); // Output: True
+console.log(employeeScore1 < employeeScore2); // Output: False
+console.log(employeeScore1 >= employeeScore2); // Output: True
+console.log(employeeScore1 <= employeeScore2); // Output: False
+console.log(employeeScore1 === employeeScore2); // Output: False
+console.log(employeeScore1 !== employeeScore2); // Output: True
