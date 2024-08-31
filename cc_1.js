@@ -56,3 +56,14 @@ console.log(employeeScore1 >= employeeScore2); // Output: True
 console.log(employeeScore1 <= employeeScore2); // Output: False
 console.log(employeeScore1 === employeeScore2); // Output: False
 console.log(employeeScore1 !== employeeScore2); // Output: True
+
+
+
+// Task 5: Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = false; 
+
+console.log(hasKeyCard && hasPermission); // Output: false (both need to be true)
+console.log(hasKeyCard || hasPermission); // Output: true (minimum one needs to be true)
+console.log(!hasKeyCard); // Output: false (negates the boolean value)
